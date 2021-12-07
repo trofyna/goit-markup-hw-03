@@ -18,4 +18,5 @@ ul, li {
 button {
     border: none;
     cursor: pointer;
+    font-family: inherit;
 }
