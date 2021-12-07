@@ -30,10 +30,13 @@ button {
     --main-color: #212121;
     --sec-color: #757575;
     --act-color: #2196F3;
-    --white-background-color: #E5E5E5;
+    --prim-grey-background-color: #E5E5E5;
+    --sec-white-background: #FFFFFF;
+    --thir-grey-white-background: #F5F4FA;
+
 }
 body{
-    background-color: var(--white-background-color);
+    background-color: var(--prim-grey-background-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
