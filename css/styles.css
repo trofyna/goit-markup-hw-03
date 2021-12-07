@@ -1,3 +1,31 @@
+/* ===============RESET styles 🧐 starts here========== */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul, li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* ===============RESET styles 🧐 ends here========== */
+
+
+
 :root {
     --main-color: #212121;
     --sec-color: #757575;
