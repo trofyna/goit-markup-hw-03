@@ -173,6 +173,24 @@ header .logo {
 /* ===============Hero styles 🧐 ends here========== */
 
 /* ===============Advantages styles 🧐 starts here========== */
+.list-advantages,
+.advantages,
+.advantages-text,
+h2 .container,
+.list-image-do {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.advantages-text {
+    max-width: 270px;
+}
+
+.list-advantages {
+        display: inline-block;
+      
+   }
 
 .advantages{
     font-family: Roboto;
@@ -241,8 +259,13 @@ header .logo {
 /* ===============DOING & team styles 🧐 ends here========== */
 
 /* ===============Portfolio styles 🧐 starts here========== */
-
+.list-btn {
+    display: flex;
+    justify-content:center;
+}
 .all-btn {
+    width: 73px;
+    height: 38px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -256,10 +279,29 @@ header .logo {
     border-radius: 4px;
 }
 
+.web-btn {
+    width: 128px;
+   }
+
+.apps-btn {
+    width: 145px;
+   }
+
+.disg-btn {
+    width: 103px;
+   }
+
+   
+.markt-btn {
+    width: 130px;
+   }
+
 .web-btn,
 .apps-btn,
 .disg-btn,
 .markt-btn {
+    height: 38px;
+    margin-left: 8px;   
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
