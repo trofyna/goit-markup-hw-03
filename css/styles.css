@@ -272,8 +272,7 @@ h2 .container,
     justify-content:center;
 }
 .all-btn {
-    width: 73px;
-    height: 38px;
+    padding: 6px 22px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -287,28 +286,11 @@ h2 .container,
     border-radius: 4px;
 }
 
-.web-btn {
-    width: 128px;
-   }
-
-.apps-btn {
-    width: 145px;
-   }
-
-.disg-btn {
-    width: 103px;
-   }
-
-   
-.markt-btn {
-    width: 130px;
-   }
-
 .web-btn,
 .apps-btn,
 .disg-btn,
 .markt-btn {
-    height: 38px;
+    padding: 6px 22px;
     margin-left: 8px;   
     font-family: Roboto;
     font-style: normal;
