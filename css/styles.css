@@ -49,7 +49,7 @@ body{
 .container {
     padding: 0 15px;
     width: 1200px;
-    border: 1px solid red;
+    outline: 1px solid red;
     margin: 0 auto;
 }
 
@@ -177,11 +177,15 @@ header .logo {
 .advantages,
 .advantages-text,
 h2 .container,
-.list-image-do {
+.list-image-do,
+.list-image-team {
     display: flex;
     justify-content: space-between;
 }
 
+.container >.hedden-elem {
+    margin: 94px 215px;
+}
 
 .advantages-text {
     max-width: 270px;
@@ -189,6 +193,7 @@ h2 .container,
 
 .list-advantages {
         display: inline-block;
+       
       
    }
 
@@ -228,7 +233,10 @@ h2 .container,
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
-
+.doing {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
 .image-do li {
     display: inline-block;
 }
@@ -331,6 +339,18 @@ color: var(--main-color);
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--sec-color);
+}
+
+.container-main-por {
+    padding: 0 15px;
+    width: 1200px;
+    outline: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    
 }
 
 /* ===============Portfolio styles 🧐 ends here========== */
