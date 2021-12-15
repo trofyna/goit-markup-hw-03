@@ -30,20 +30,20 @@ button {
     --main-color: #212121;
     --sec-color: #757575;
     --act-color: #2196F3;
-    --prim-grey-background-color: #E5E5E5;
-    --sec-white-background: #FFFFFF;
+    --prim-white-background: #FFFFFF;
+    --sec-grey-background-color: #E5E5E5;
     --thir-grey-white-background: #F5F4FA;
 
 }
 body{
-    background-color: var(--prim-grey-background-color);
+    background-color: var(--prim-white-background);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
-    color: #212121;
+    color: #050303;
 }
 .section {
-    padding: 94px 0;
+    padding-top: 94px;
 }
 
 .container {
@@ -115,7 +115,7 @@ header .logo {
 }
 
 .contacts li a {
-    margin: 0 0 0 50;
+    margin: 0 0 0 0;
     color: var(--sec-color);
 }
 
@@ -233,10 +233,11 @@ h2 .container,
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
-.doing {
-    margin-top: 94px;
-    margin-bottom: 50px;
+.doing
+.team {
+     margin-bottom: 50px;
 }
+
 .image-do li {
     display: inline-block;
 }
@@ -334,7 +335,9 @@ color: var(--main-color);
     max-width: 1170px;
     
 }
-
+.bgteam {
+    background-color: var(--thir-grey-white-background);
+}
 /* ===============Portfolio styles 🧐 ends here========== */
 
 /* ===============Footer styles 🧐 starts here========== */
