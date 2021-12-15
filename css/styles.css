@@ -60,6 +60,7 @@ body{
     opacity: 0;
     margin-top: -1px;
 }
+
 /* ===============Header styles 🧐 starts here========== */
 
 nav,
@@ -192,10 +193,10 @@ h2 .container,
 }
 
 .list-advantages {
-        display: inline-block;
+    display: inline-block;
        
       
-   }
+}
 
 .advantages{
     font-family: Roboto;
@@ -236,6 +237,25 @@ h2 .container,
 .doing,
 .team {
      margin-bottom: 50px;
+}
+.card-team {
+    background: var(--prim-white-background);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+   }
+
+h3.img-name {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+p.img-proff {
+     padding-bottom: 30px;
+}
+img {
+    display: block;
 }
 
 .image-do li {
