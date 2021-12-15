@@ -285,6 +285,10 @@ img {
     color: var(--sec-color);
 
 }
+
+.bgteam {
+    background-color: var(--thir-grey-white-background);
+}
 /* ===============DOING & team styles 🧐 ends here========== */
 
 /* ===============Portfolio styles 🧐 starts here========== */
@@ -355,9 +359,7 @@ color: var(--main-color);
     max-width: 1170px;
     
 }
-.bgteam {
-    background-color: var(--thir-grey-white-background);
-}
+
 /* ===============Portfolio styles 🧐 ends here========== */
 
 /* ===============Footer styles 🧐 starts here========== */
@@ -369,7 +371,12 @@ color: var(--main-color);
     margin-top: 94px;
 }
 
-
+/* footer a.logo {
+    margin-bottom: 20px;
+} */
+.list-address {
+    padding-top: 20px;
+}
 .address {
 font-family: Roboto;
 font-style: normal;
