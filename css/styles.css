@@ -290,6 +290,7 @@ img {
 }
 
 .bgteam {
+    padding-bottom: 94px;
     background-color: var(--thir-grey-white-background);
 }
 /* ===============DOING & team styles 🧐 ends here========== */
@@ -403,7 +404,7 @@ h2.product {
     padding: 60px 0;
     max-width: 1600px;
     margin: 0px auto;
-    margin-top: 94px;
+    /* margin-top: 94px; */
 }
 
 /* footer a.logo {
