@@ -239,6 +239,8 @@ h2 .container,
      margin-bottom: 50px;
 }
 .card-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
     background: var(--prim-white-background);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -247,13 +249,14 @@ h2 .container,
    }
 
 h3.img-name {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-bottom: 10px;
 }
 
-p.img-proff {
+/* p.img-proff {
      padding-bottom: 30px;
-}
+} */
+
 img {
     display: block;
 }
